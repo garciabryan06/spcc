@@ -31,9 +31,9 @@
     <ul class="sidebar-menu">
       <li class="header">HEADER</li>
       <!-- Optionally, you can add icons to the links -->
-      <li class="active"><a href="/register"><i class="fa fa-user-plus"></i> <span>Adminssion</span></a></li>
-      <li><a href="#"><i class="fa fa-eye"></i> <span>View Subjects</span></a></li>
-      <li><a href="#"><i class="fa fa-eye"></i> <span>Change Password</span></a></li>
+      <li class="active"><a href="/students"><i class="fa fa-user-plus"></i> <span>Admission</span></a></li>
+      <li><a href="/students/viewSubject"><i class="fa fa-eye"></i> <span>View Subjects</span></a></li>
+      <li><a href="/students/changePassword"><i class="fa fa-eye"></i> <span>Change Password</span></a></li>
     </ul>
     <!-- /.sidebar-menu -->
   </section>

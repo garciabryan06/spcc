@@ -14,6 +14,9 @@
 Route::get('/', 'PagesController@index');
 Route::get('/register', 'PagesController@register');
 
+Route::get('/students/', 'StudentsController@index')->name('students');
+Route::get('/students/changePassword', 'StudentsController@changePassword');
+Route::get('/students/viewSubject', 'StudentsController@viewSubject');
 
 
 // Route::get('/about', function () {
